@@ -20,9 +20,13 @@ This is the code for our response generation model.
 
 ## Commands For Running 
 Data preprocessing:
-Training:
-Testing:
+python preprocess.py -train_src data/train_prompt.txt -train_tgt data/train_response.txt -valid_src data/valid_prompt.txt -valid_tgt data/valid_response.txt -save_data data/personachat
 
+Training:
+python traingn.py -data data/personachat -save_model model -gpuid 0 -rnn_size 500 -batch_size 64 -epochs 100 -optim adam -learning_rate 0.001 -learning_rate_decay 0.5 -dropout 0.2 -global_attention mlp 
+
+Testing:
+python translategn.py -model model_acc_XXX_ppl_XXX_eX.pt  -src data/valid.txt -output output.txt  -verbose -block_ngram_repeat 3 
 ## Specificity metrics
 For Linguistic informed specificity, we use [our system](https://github.com/wjko2/Domain-Agnostic-Sentence-Specificity-Prediction).
 
