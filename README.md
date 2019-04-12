@@ -29,7 +29,7 @@ python traingn.py -data data/personachat -save_model model -gpuid 0 -rnn_size 50
 
 Testing:
 
-python translategn.py -model model_acc_XXX_ppl_XXX_eX.pt  -src data/valid.txt -output output.txt  -verbose -block_ngram_repeat 3 
+python translategn.py -model model_acc_XXX_ppl_XXX_eX.pt  -src data/test.txt -output output.txt  -verbose -block_ngram_repeat 3 
 
 ## Specificity metrics
 For Linguistic informed specificity, we use [our system](https://github.com/wjko2/Domain-Agnostic-Sentence-Specificity-Prediction).
