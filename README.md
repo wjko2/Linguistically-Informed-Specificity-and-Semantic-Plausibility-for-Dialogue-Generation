@@ -25,5 +25,5 @@ Testing:
 
 ## Generating specificity levels
 For Linguistic informed specificity, we use[[1|https://github.com/wjko2/Domain-Agnostic-Sentence-Specificity-Prediction]]
-
+[Quora profile link for Adam D'Angelo](http://www.quora.com/Adam-DAngelo)
 
