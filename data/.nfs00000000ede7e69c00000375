@@ -1,0 +1,10 @@
+f=open('v1cat4d.txt','r')
+f2=open('valid_prompt.txt','w')
+for line in f:
+    line=line.split()
+    line[0]='coh'+line[0][3] 
+    line[1]='lingspec'+line[1][4]    
+    line[2]='niwf'+line[2][4] 
+    line[3]='ppl'+line[3][4]
+    line=' '.join(line)
+    f2.write(line+'\n')
