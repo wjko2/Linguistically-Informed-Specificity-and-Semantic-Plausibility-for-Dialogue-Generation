@@ -23,8 +23,9 @@ Data preprocessing:
 Training:
 Testing:
 
-## Generating specificity levels
+## Specificity metrics
 For Linguistic informed specificity, we use [our system](https://github.com/wjko2/Domain-Agnostic-Sentence-Specificity-Prediction).
+
 For computing perplexity, we use [the RNNLM toolkit](http://www.fit.vutbr.cz/~imikolov/rnnlm/).
 
 
