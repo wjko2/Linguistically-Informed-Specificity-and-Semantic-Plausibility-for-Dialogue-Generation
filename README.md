@@ -16,7 +16,7 @@ This is the code for our response generation model.
 
 ## Dependencies
 -Pytorch (Tested on 0.3.1)
-
+This code is based on [OpenNMT](https://github.com/OpenNMT/OpenNMT-py)
 
 ## Commands For Running 
 Data preprocessing:
