@@ -17,8 +17,7 @@ This is the code for our response generation model.
 ## Dependencies
 -Pytorch (Tested on 0.3.1)
 
--This code is based on [OpenNMT](https://github.com/OpenNMT/OpenNMT-py)
-
+-This code is based on [OpenNMT](https://github.com/OpenNMT/OpenNMT-py) Klein et al., OpenNMT: Open-Source Toolkit for Neural Machine Translation, ACL2017
 ## Commands For Running 
 Data preprocessing:
 
