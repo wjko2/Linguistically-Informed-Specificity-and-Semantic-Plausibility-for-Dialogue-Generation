@@ -36,4 +36,8 @@ For Linguistic informed specificity, we use [our system](https://github.com/wjko
 
 For computing perplexity, we use [the RNNLM toolkit](http://www.fit.vutbr.cz/~imikolov/rnnlm/).
 
+## Generating synthetic sentences for reranker
+1.run Reranking/nltk_pos.py to tag the data (nltk required)
+2.run Reranking/generate_sentences.py to generate sentences
+
 
