@@ -38,6 +38,7 @@ For computing perplexity, we use [the RNNLM toolkit](http://www.fit.vutbr.cz/~im
 
 ## Generating synthetic sentences for reranker
 1.run Reranking/nltk_pos.py to tag the data (nltk required)
+
 2.run Reranking/generate_sentences.py to generate sentences
 
 
