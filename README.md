@@ -41,4 +41,21 @@ For computing perplexity, we use [the RNNLM toolkit](http://www.fit.vutbr.cz/~im
 
 2.run Reranking/generate_sentences.py to generate sentences
 
+## Training reranker
+We modify this [InferSent](https://github.com/facebookresearch/InferSent) toolkit.
+Download it and replace data.py, models.py, and train_nli.py by our file in the Reranking/ folder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
