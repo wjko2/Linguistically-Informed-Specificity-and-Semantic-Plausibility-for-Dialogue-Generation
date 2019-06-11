@@ -184,8 +184,6 @@ class NMTLossCompute(LossComputeBase):
             weight[self.padding_idx] = 0
             self.criterion = nn.NLLLoss(weight, size_average=False)
         self.confidence = 1.0 - label_smoothing
-        self.pdtb_net = torch.load('/scratch/cluster/wjko/InferSent/savedir/3osmodel.pickle').cuda()
-        self.pdtb_net.eval()
         self.ccts=torch.from_numpy(np.zeros((len(tgt_vocab.itos)))).cuda().float()
         self.vvj=0
         self.vvjv=0
